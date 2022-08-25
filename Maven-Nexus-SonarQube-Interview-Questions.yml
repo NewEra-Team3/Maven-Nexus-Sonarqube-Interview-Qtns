@@ -45,10 +45,12 @@ MAVEN QUESTIONS:
     Ans #1
       package: converts the compiled code into a distributable format, such as a JAR.
       install: adds the package to the local repository, allowing it to be used as a dependency in other projects.
-  2. What are the phases of the clean lifecycle?:
-  3. What are the phases of the site lifecycle?:
-  4. What are the different types of Maven repositories?:
-  5. What are the different phases of the default life cycle?:
+  2. What are the phases of the clean lifecycle?:When we execute the mvn post-clean command, Maven invokes the clean lifecycle consisting of the following phases: pre-clean,clean,post-clean.
+  3. What are the phases of the site lifecycle?:The Maven Site Lifecycle Phases: pre-site,site,post-site,site-deploy.
+
+  4. What are the different types of Maven repositories?:There are 3 types of maven repository: Local Repository. Central Repository. Remote Repository
+  5. What are the different phases of the default life cycle?:There are three built-in build lifecycles: default, clean and site. The default lifecycle handles your project deployment, the clean lifecycle handles project cleaning, while the site lifecycle handles the creation of your project's web site.
+
   6. In Maven, what is a snapshot?:
 
 NEXUS QUESTIONS:
