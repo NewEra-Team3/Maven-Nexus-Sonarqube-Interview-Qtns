@@ -1,0 +1,98 @@
+JOB
+A client ABC has assigned NewEra a job to write a code with 25 questions and 2 individual questions, we 
+need to create and build different parts of the questions and answer them on a YAML file.
+
+Jira Ticket 
+Title: MTNS question
+1. The team lead will onboard the project, create a team and assign the team personal access tokens (PAT).
+2. Create a master branch and commit the question in a YAML file. 
+3. Each one of the team members will create their own feature branch from the master branch and answer ??? 
+questions each in their working area and commit the code back to the remote repository.
+4 Each team member will create a pull request and assign 2 team members assigned by the team lead to review 
+and approve the code. If all is approved, the Engineer in charge of the task will merge it back to the Master branch 
+END OF TASK
+
+
+1. Engr. [Name] 1 to xx — -JIRA Task ID DVPO-20
+2. Engr. [Name] xx to xx — -JIRA Task ID DVPO-21
+3. Engr. [Name] xx to xx — -JIRA Task ID DVPO-22
+4. Engr. [Name] xx to xx — -JIRA Task ID DVPO-23
+5. Engr. [Name] xx to xx — -JIRA Task ID DVPO-24
+6. Engr. [Name] xx to xx — -JIRA Task ID DVPO-25
+7. Engr. [Name] xx to xx — -JIRA Task ID DVPO-26
+
+Your company has a naming convention for creating branches and commit messages, please follow the naming convention.
+
+Branch Naming Convention:
+master branch = master
+Development branch = dev
+feature branch = feature/[Jira Task ID]_[TaskNumber]_[TaskName]
+ex. feature/DVPO-20_1-5_MTNS-question
+
+Commit Message Naming Convention:
+git commit -m "[Jira Task ID]:[Commit message]"
+eg. git commit -m "DVPO-20:[Commit message]"
+
+
+Please utilize all tools available to you to do your research and get this task done. If you need help, 
+indicate on your team board or help desk and someone will assist you. 
+
+BEST OF LUCK | LETS HAVE FUN WITH IT
+
+Random Questions to Split Among Your Team mates
+MAVEN QUESTIONS:
+  1. What is the difference between the maven package and the maven install:
+    Ans #1
+      package: converts the compiled code into a distributable format, such as a JAR.
+      install: adds the package to the local repository, allowing it to be used as a dependency in other projects.
+  2. What are the phases of the clean lifecycle?:
+  3. What are the phases of the site lifecycle?:
+  4. What are the different types of Maven repositories?:
+  5. What are the different phases of the default life cycle?:
+  6. In Maven, what is a snapshot?:
+
+NEXUS QUESTIONS:
+  7. What is NEXUS?:
+  8. What types of repositories can you find in Nexus?:
+  9. What command will you use to push an artifact to Nexus from Maven?:
+  10. Where do you setup your snapshot and release url in Maven and in what tag:
+
+  SONARQUBE QUESTIONS:
+  11. What is SonarQube?:
+  12. Why use SonarQube when maven can test your code?:
+  13. What are the advantages of using SonarQube?:
+  14. What are Quality Profiles in SonarQube?:
+  15. What are Quality Gates in SonarQube?:
+  16. How do you create reports in SonarQube?:
+
+  TOMCAT QUESTIONS:
+  17. What is Apache Tomcat?:
+  18. What is the default port for Apache Tomcat?:
+  19. What are the types of shell file with the help of which we can Start and Stop Apache Tomcat Server?:
+  20. How do you Start and Stop Apache Tomcat using services?:
+  21. What are the vital benefits of Running Tomcat as service?:
+  22. What is the deployment process of web application using the WAR file?:
+
+
+Every Team menber is expected to answer these questions individually
+
+Teammate 1
+  1. What is your experience with SonarQube?:
+
+Teammate 2
+  1. What is your experience with SonarQube?:
+
+Teammate 3
+  1. What is your experience with SonarQube?:
+
+Teammate 4
+  1. What is your experience with SonarQube?:
+
+Teammate 5
+  1. What is your experience with SonarQube?:
+
+Teammate 6
+  1. What is your experience with SonarQube?:
+
+Teammate 7
+  1. What is your experience with SonarQube?:
