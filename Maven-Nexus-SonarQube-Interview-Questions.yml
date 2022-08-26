@@ -64,12 +64,12 @@ NEXUS QUESTIONS:
   12. Why use SonarQube when maven can test your code?:
   13. What are the advantages of using SonarQube?:
   14. What are Quality Profiles in SonarQube?:
-  15. What are Quality Gates in SonarQube?:
-  16. How do you create reports in SonarQube?:
+  15. What are Quality Gates in SonarQube?: They are set of conditions a project must meet before it should be pushed to further environment
+  16. How do you create reports in SonarQube?: Browsing the project space in the “More …“ option you will find a section that provides all the reports,Just download the desired report by clicking on the corresponding download button.
 
   TOMCAT QUESTIONS:
-  17. What is Apache Tomcat?:
-  18. What is the default port for Apache Tomcat?:
+  17. What is Apache Tomcat?: is an Application Server from the Apache Software Foundation that executes Java servlets and renders Web pages that include Java Server Page coding
+  18. What is the default port for Apache Tomcat?: 8080
   19. What are the types of shell file with the help of which we can Start and Stop Apache Tomcat Server?:
   20. How do you Start and Stop Apache Tomcat using services?:
   21. What are the vital benefits of Running Tomcat as service?:
